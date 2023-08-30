@@ -1,5 +1,5 @@
-## Hey 👋,This is Ramadhani Al-Qadri
-[![Gmail Badge](https://img.shields.io/badge/-rifkirusdisatmaputra@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:rifkirusdisatmaputra@gmail.com)](mailto:rifkirusdisatmaputra@gmail.com) [![Github Badge](https://img.shields.io/badge/-Rusdy_Zain-grey?style=flat&logo=github&logoColor=white&link=https://github.com/Rusdy_Zain/)](https://www.github.com/Rusdy_Zain/) <p align='left'>I am a new student in the department of informatics engineering. I love programming, I also love designing.</p>
+## Hey 👋,This is Rifki Rusdi Satma Putra
+[![Gmail Badge](https://img.shields.io/badge/-rifkirusdisatmaputra@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:rifkirusdisatmaputra@gmail.com)](mailto:rifkirusdisatmaputra@gmail.com) [![Github Badge](https://img.shields.io/badge/-RusdyZain-grey?style=flat&logo=github&logoColor=white&link=https://github.com/RusdyZain/)](https://www.github.com/RusdyZain/) <p align='left'>I am a new student in the department of informatics engineering. I love programming, I also love designing.</p>
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on my Portfolio Project
@@ -8,13 +8,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: 
 
 ## Some of my Github Stats
-<!-- <p align=left> <img src=https://komarev.com/ghpvc/?username=RamaAlqdri alt=RamaAlqdri /> </p>
+<!-- <p align=left> <img src=https://komarev.com/ghpvc/?username=RusdyZain alt=RusdyZain /> </p>
 
 [![Github stats](https://github-readme-stats.vercel.app/api?username=ramaalqdri&show_icons=true&include_all_commits=true)](https://github.com/ramaalqdri/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ramaalqdri&layout=compact)](https://github.com/ramaalqdri/github-readme-stats) -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ramaalqdri&show_icons=true&include_all_commits=true&theme=monokai" alt="hossein heydari's GitHub stats" /><br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ramaalqdri&theme=monokai"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramaalqdri&layout=compact&theme=monokai&langs_count=12"/><br />
+  <img src="https://github-readme-stats.vercel.app/api?username=RusdyZain&show_icons=true&include_all_commits=true&theme=monokai" alt="hossein heydari's GitHub stats" /><br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RusdyZain&theme=monokai"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RusdyZain&layout=compact&theme=monokai&langs_count=12"/><br />
 </p>
