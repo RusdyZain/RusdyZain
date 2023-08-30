@@ -3,15 +3,15 @@
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on my Portfolio Project
-- 📫 you can reach me at my social media  [IG : @rusdyzain](https://www.instagram.com/rusdy_zain/) , [Linkedin : @rifkirusdi30]((https://www.linkedin.com/in/rifkirusdi30/)).
+- 📫 you can reach me at my social media  [IG : @rusdyzain](https://www.instagram.com/rusdy_zain/) and [Linkedin : @rifkirusdi30](https://www.linkedin.com/in/rifkirusdi30/).
 - 😄 I'm natively speak Indonesian
 - ⚡ Fun fact: 
 
 ## Some of my Github Stats
 <!-- <p align=left> <img src=https://komarev.com/ghpvc/?username=RusdyZain alt=RusdyZain /> </p>
 
-[![Github stats](https://github-readme-stats.vercel.app/api?username=ramaalqdri&show_icons=true&include_all_commits=true)](https://github.com/ramaalqdri/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ramaalqdri&layout=compact)](https://github.com/ramaalqdri/github-readme-stats) -->
+[![Github stats](https://github-readme-stats.vercel.app/api?username=ramaalqdri&show_icons=true&include_all_commits=true)](https://github.com/RusdyZain/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RusdyZain&layout=compact)](https://github.com/RusdyZain/github-readme-stats) -->
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RusdyZain&show_icons=true&include_all_commits=true&theme=monokai" alt="hossein heydari's GitHub stats" /><br />
