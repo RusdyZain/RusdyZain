@@ -1,5 +1,5 @@
 ## Hey 👋,This is Rifki Rusdi Satma Putra
-[![Gmail Badge](https://img.shields.io/badge/-rifkirusdisatmaputra@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:rifkirusdisatmaputra@gmail.com)](mailto:rifkirusdisatmaputra@gmail.com) [![Github Badge](https://img.shields.io/badge/-RusdyZain-grey?style=flat&logo=github&logoColor=white&link=https://github.com/RusdyZain/)](https://www.github.com/RusdyZain/) <p align='left'>I am a new student in the department of informatics engineering. I love programming, I also love designing.</p>
+[![Gmail Badge](https://img.shields.io/badge/-rifkirusdisatmaputra@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:rifkirusdisatmaputra@gmail.com)](mailto:rifkirusdisatmaputra@gmail.com) [![Github Badge](https://img.shields.io/badge/-RusdyZain-grey?style=flat&logo=github&logoColor=white&link=https://github.com/RusdyZain/)](https://www.github.com/RusdyZain/) <p align='left'>"I am not only a passionate programmer and designer, but I also thrive on embracing leadership roles. As a new student in the department of informatics engineering, I eagerly combine my love for programming with my natural inclination for leadership, aiming to make a meaningful impact in the field."</p>
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on my Portfolio Project
