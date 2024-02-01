@@ -1,4 +1,4 @@
-# Hello, I'm Rifki Rusdi Satma Putra
+# Hello, I'm Rifki Rusdi Satma Putra 👋
 
 <p align="center">
   <a href="mailto:rifkirusdisatmaputra@gmail.com">
@@ -10,14 +10,14 @@
 </p>
 
 <p align="left">
-  "I'm not just a passionate programmer and designer; I'm also enthusiastic about taking on leadership roles. As a new student in the Department of Informatics Engineering, I'm excited to merge my love for programming with my innate knack for leadership. My goal is to create a meaningful impact in the field."
+  "Passionate programmer, designer, and aspiring leader. Currently navigating the exciting world of Informatics Engineering as a new student. Combining my love for coding with a natural flair for leadership, I aspire to make a meaningful impact in the field."
 </p>
 
 ## About Me
-- 🔭 I’m currently working on my Portfolio Project.
-- 📫 You can reach me on [Instagram](https://www.instagram.com/rusdy_zain/) and [Linkedin](https://www.linkedin.com/in/rifkirusdi30/).
-- 😄 I'm a native Indonesian speaker.
-- ⚡ Fun fact: I love exploring new programming languages and technologies.
+- 🔭 Working on my Portfolio Project.
+- 📫 Connect with me on [Instagram](https://www.instagram.com/rusdy_zain/) and [LinkedIn](https://www.linkedin.com/in/rifkirusdi30/).
+- 😄 Native Indonesian speaker.
+- ⚡ Fun fact: I enjoy exploring new programming languages and technologies.
 
 ## GitHub Stats
 <p align="center">
@@ -31,3 +31,5 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RusdyZain&layout=compact&theme=monokai&langs_count=12" alt="Top Languages">
 </p>
+
+Feel free to explore my projects and reach out! 🚀
