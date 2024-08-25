@@ -18,7 +18,33 @@
 ---
 
 <p align="center">
-  <strong>"Programming isn't just my passion—it's the way I lead, inspire, and create change."</strong>
+  <strong>"Hello! I'm Rifki Rusdi Satma Putra, a web developer with 2 years of hands-on experience in creating dynamic and responsive web applications. My expertise lies in leveraging modern technologies to build scalable and efficient solutions.
+
+Over the past two years, I've specialized in working with:
+
+Front-end: React.js, Next.js, Tailwind, JavaScript
+Back-end: Node.js, Express.js, RESTful APIs
+Databases: MongoDB, MySQL
+Tools & Other Technologies: Git, Redux, Axios, and more.
+Throughout my career, I've developed a wide range of projects, from simple landing pages to complex, data-driven web applications. My focus has always been on creating user-friendly experiences while maintaining high performance and scalability.
+
+Experience: 2 years as a web developer, with a strong foundation in both front-end and back-end technologies.
+Strengths: Full-stack development, problem-solving, and a passion for continuous learning.
+Projects: Built and deployed various web applications using React and Next.js on the front-end, and Express.js on the back-end, ensuring seamless integration and functionality.
+I'm always eager to explore new technologies and stay updated with the latest industry trends. My goal is to continue building innovative solutions that make a difference.
+
+This version of your self-introduction effectively communicates your technical stack and experience, making it clear what you bring to the table as a web developer.
+
+
+
+
+
+
+
+
+Bagaimana project portofolio saya?
+
+Tips belajar Next.js?"</strong>
 </p>
 
 ---
