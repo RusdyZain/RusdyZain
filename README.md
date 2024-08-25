@@ -19,11 +19,6 @@
 
 <p align="center">
   <strong>"I’m Rifki Rusdi Satma Putra, a web developer with 2 years of experience crafting dynamic and responsive web applications. Over the course of my career, I've had the opportunity to work on a variety of projects, from sleek landing pages to complex, data-driven platforms. My work has consistently focused on delivering seamless user experiences while ensuring that the applications are both scalable and efficient."<strong/>
-
-
-Bagaimana project portofolio saya?
-
-Tips belajar Next.js?"</strong>
 </p>
 
 ---
