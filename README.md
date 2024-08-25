@@ -1,33 +1,49 @@
-# Hello, I'm Rifki Rusdi Satma Putra
+# Hi there! 👋 I'm Rifki Rusdi Satma Putra
 
 <p align="center">
   <a href="mailto:rifkirusdisatmaputra@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-c14438?style=flat&logo=Gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/Email-c14438?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://www.github.com/RusdyZain/">
-    <img src="https://img.shields.io/badge/-Github-grey?style=flat&logo=github&logoColor=white" alt="Github">
+    <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/rifkirusdi30/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/rusdy_zain/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
   </a>
 </p>
 
-<p align="left">
-  "I'm not just a passionate programmer and designer; I'm also enthusiastic about taking on leadership roles. As a new student in the Department of Informatics Engineering, I'm excited to merge my love for programming with my innate knack for leadership. My goal is to create a meaningful impact in the field."
-</p>
-
-## About Me
-- 🔭 I’m currently working on my Portfolio Project.
-- 📫 You can reach me on [Instagram](https://www.instagram.com/rusdy_zain/) and [Linkedin](https://www.linkedin.com/in/rifkirusdi30/).
-- 😄 I'm a native Indonesian speaker.
-- ⚡ Fun fact: I love exploring new programming languages and technologies.
-
-## GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RusdyZain&show_icons=true&include_all_commits=true&theme=monokai" alt="GitHub Stats">
-</p>
+---
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RusdyZain&theme=monokai" alt="GitHub Streak Stats">
+  <strong>"Programming isn't just my passion—it's the way I lead, inspire, and create change."</strong>
+</p>
+
+---
+
+## 🌟 About Me
+- 🎓 I’m an Informatics Engineering student with a flair for leadership.
+- 💻 Currently working on my Portfolio Project, where I blend design and code.
+- 🌍 Native Indonesian speaker, and always eager to learn new languages—both spoken and coded!
+- 🎨 Fun fact: I have a knack for picking up new programming languages and technologies, and I enjoy exploring creative design.
+
+## 🚀 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RusdyZain&show_icons=true&include_all_commits=true&theme=radical" alt="GitHub Stats">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RusdyZain&layout=compact&theme=monokai&langs_count=12" alt="Top Languages">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RusdyZain&theme=radical" alt="GitHub Streak Stats">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RusdyZain&layout=compact&theme=radical&langs_count=12" alt="Top Languages">
+</p>
+
+---
+
+<p align="center">
+  🚀 <strong>Let's connect and create something amazing together!</strong> 🚀
 </p>
