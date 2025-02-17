@@ -66,6 +66,14 @@
 
 ---
 
+## 🔥 Featured Projects
+🚀 **Check out some of my latest projects!**
+- [🌐 Project 1 - Web System for Healthcare](#) *(React, Next.js, Node.js)*
+- [📊 Project 2 - Data Dashboard](#) *(React, Redux, PostgreSQL)*
+- [🛒 Project 3 - E-commerce Platform](#) *(MERN Stack, TailwindCSS)*
+
+---
+
 ## 🎯 Let's Connect!
 💬 Open to collaboration, freelance projects, and exciting opportunities!  
 🚀 **Let’s build something great together!** 🚀  
