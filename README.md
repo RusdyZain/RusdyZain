@@ -18,18 +18,40 @@
 ---
 
 <p align="center">
-  <strong>"I’m Rifki Rusdi Satma Putra, a web developer with 2 years of experience crafting dynamic and responsive web applications. Over the course of my career, I've had the opportunity to work on a variety of projects, from sleek landing pages to complex, data-driven platforms. My work has consistently focused on delivering seamless user experiences while ensuring that the applications are both scalable and efficient."<strong/>
+  <strong>"I’m Rifki Rusdi Satma Putra, a passionate Software Developer with 3 years of experience in Web Development and 2 years specializing in React.js. Currently, I'm contributing as a Software Developer at Bidokkes Polda NTB, where I focus on building efficient, scalable, and secure applications for the health and security sector. With expertise in full-stack development, I love solving complex problems and optimizing systems for performance and usability."<strong/>
 </p>
 
 ---
 
 ## 🌟 About Me
-- 🎓 I’m an Informatics Engineering student with a flair for leadership.
-- 💻 Currently working on my Portfolio Project, where I blend design and code.
-- 🌍 Native Indonesian speaker, and always eager to learn new languages—both spoken and coded!
-- 🎨 Fun fact: I have a knack for picking up new programming languages and technologies, and I enjoy exploring creative design.
+- 💼 **Software Developer at Bidokkes Polda NTB** (Health & Security Tech Sector)
+- 💻 **3+ years experience in Web Development** (Full-Stack)
+- ⚛️ **2+ years specializing in React.js** (Next.js, Redux, TailwindCSS)
+- 🏗️ Proficient in **Node.js, Express.js, PostgreSQL, MySQL**
+- 🎨 Passionate about **building scalable, user-friendly applications**
+- 🚀 Always learning **new technologies & best practices in software development**
+- 🌍 Native **Indonesian speaker**, tech enthusiast, and problem solver.
 
-## 🚀 GitHub Stats
+## 🔧 Tech Stack & Skills
+### **Frontend**
+- ⚛️ React.js, Next.js, Redux, Context API
+- 🎨 Tailwind CSS, Bootstrap, Material UI, SCSS
+- 📱 Responsive Web Design, PWA
+
+### **Backend**
+- 🚀 Node.js, Express.js
+- 🗄️ PostgreSQL, MySQL, MongoDB
+- 🛠️ REST API, GraphQL, Authentication (JWT, OAuth)
+- 🏗️ Clean Architecture & Best Practices
+
+### **Tools & DevOps**
+- 🛠 Git, GitHub, GitLab
+- 🔍 Docker, CI/CD, Postman, Swagger API
+- 🛡️ Security & Performance Optimization
+
+---
+
+## 📈 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RusdyZain&show_icons=true&include_all_commits=true&theme=radical" alt="GitHub Stats">
 </p>
@@ -44,6 +66,6 @@
 
 ---
 
-<p align="center">
-  🚀 <strong>Let's connect and create something amazing together!</strong> 🚀
-</p>
+## 🎯 Let's Connect!
+💬 Open to collaboration, freelance projects, and exciting opportunities!  
+🚀 **Let’s build something great together!** 🚀  
