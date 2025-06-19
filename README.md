@@ -18,13 +18,13 @@
 ---
 
 <p align="center">
-  <strong>"I’m Rifki Rusdi Satma Putra, a passionate Software Developer with 3 years of experience in Web Development and 2 years specializing in React.js. Currently, I'm contributing as a Software Developer at Bidokkes Polda NTB, where I focus on building efficient, scalable, and secure applications for the health and security sector. With expertise in full-stack development, I love solving complex problems and optimizing systems for performance and usability."<strong/>
+  <strong>"I’m Rifki Rusdi Satma Putra, a passionate Software Developer with 3 years of experience in Web Development and 2 years specializing in React.js. Currently, I'm contributing as a Software Developer at Biddokkes Polda NTB, where I focus on building efficient, scalable, and secure applications for the health and security sector. With expertise in full-stack development, I love solving complex problems and optimizing systems for performance and usability."<strong/>
 </p>
 
 ---
 
 ## 🌟 About Me
-- 💼 **Software Developer at Bidokkes Polda NTB** (Health & Security Tech Sector)
+- 💼 **Software Developer at Biddokkes Polda NTB** (Health & Security Tech Sector)
 - 💻 **3+ years experience in Web Development** (Full-Stack)
 - ⚛️ **2+ years specializing in React.js** (Next.js, Redux, TailwindCSS)
 - 🏗️ Proficient in **Node.js, Express.js, PostgreSQL, MySQL**
