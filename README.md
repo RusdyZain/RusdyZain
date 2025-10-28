@@ -1,10 +1,10 @@
-# Hi there! 👋 I'm Rifki Rusdi Satma Putra
+# 👋 Hi there! I'm Rifki Rusdi Satma Putra  
 
 <p align="center">
   <a href="mailto:rifkirusdisatmaputra@gmail.com">
     <img src="https://img.shields.io/badge/Email-c14438?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://www.github.com/RusdyZain/">
+  <a href="https://github.com/RusdyZain">
     <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="https://www.linkedin.com/in/rifkirusdi30/">
@@ -18,54 +18,81 @@
 ---
 
 <p align="center">
-  <strong>"I’m Rifki Rusdi Satma Putra, a passionate Software Developer with 3 years of experience in Web Development and 2 years specializing in React.js. Currently, I'm contributing as a Software Developer at Biddokkes Polda NTB, where I focus on building efficient, scalable, and secure applications for the health and security sector. With expertise in full-stack development, I love solving complex problems and optimizing systems for performance and usability."<strong/>
+  <strong>“A passionate Software Developer with hands-on experience in building clean, scalable, and secure digital solutions for healthcare, mobility, and agriculture sectors.”</strong>
 </p>
 
 ---
 
-## 🌟 About Me
-- 💼 **Software Developer at Biddokkes Polda NTB** (Health & Security Tech Sector)
-- 💻 **3+ years experience in Web Development** (Full-Stack)
-- ⚛️ **2+ years specializing in React.js** (Next.js, Redux, TailwindCSS)
-- 🏗️ Proficient in **Node.js, Express.js, PostgreSQL, MySQL**
-- 🎨 Passionate about **building scalable, user-friendly applications**
-- 🚀 Always learning **new technologies & best practices in software development**
-- 🌍 Native **Indonesian speaker**, tech enthusiast, and problem solver.
+## 🚀 About Me
 
-## 🔧 Tech Stack & Skills
-### **Frontend**
-- ⚛️ React.js, Next.js, Redux, Context API
-- 🎨 Tailwind CSS, Bootstrap, Material UI, SCSS
-- 📱 Responsive Web Design, PWA
+- 💼 **Software Developer & IT Technician at Biddokkes POLDA NTB**  
+  Building digital health systems integrated with BPJS PCare — focusing on patient records, drug inventory, and analytics.
 
-### **Backend**
-- 🚀 Node.js, Express.js
-- 🗄️ PostgreSQL, MySQL, MongoDB
-- 🛠️ REST API, GraphQL, Authentication (JWT, OAuth)
-- 🏗️ Clean Architecture & Best Practices
+- 🧑‍💻 **Ex–CTO at AyoTani** (AgriTech startup)  
+  Led full-stack product development and managed system architecture.
 
-### **Tools & DevOps**
-- 🛠 Git, GitHub, GitLab
-- 🔍 Docker, CI/CD, Postman, Swagger API
-- 🛡️ Security & Performance Optimization
+- ⚙️ **Fullstack Developer at Gridwiz Energy & Mobility**  
+  Developed an e-bike rental platform using **Next.js** + **NestJS**, deployed with Nginx VPS.
+
+- 📱 **Flutter Developer at MojadiApp**  
+  Created cross-platform mobile apps with Firebase, Firestore, and real-time data sync.
+
+- 🎓 **B.Sc. Informatics Engineering – University of Mataram (GPA 3.88/4.00)**  
+  Finalist at **GEMASTIK 2023**, national competition for tech & UI/UX design.
 
 ---
 
-## 📈 GitHub Stats
+## 🧩 Tech Stack
+
+### 🖥️ **Frontend**
+React.js · Next.js · Redux · TailwindCSS · ShadCN/UI · Bootstrap · SCSS · PWA
+
+### ⚙️ **Backend**
+Node.js · Express.js · NestJS · REST API · PostgreSQL · MySQL · Firebase
+
+### 🛠️ **DevOps & Tools**
+Docker · Nginx · VPS Deployment · Git/GitHub · CI/CD (basic) · Swagger · Postman
+
+### 🎨 **Design & UI/UX**
+Figma · Canva · CapCut · Responsive Design · Wireframing
+
+### 💡 **Soft Skills**
+Agile (Scrum) · Project Leadership · Communication · Problem Solving · Critical Thinking
+
+---
+
+## 💼 Highlighted Projects
+
+| Project | Description | Tech Stack |
+|----------|--------------|-------------|
+| **AkuSehat** | Clinical HealthTech platform for POLDA NTB, integrated with BPJS PCare. | React Vite, Express.js, PostgreSQL |
+| **E-Bike Rental System** | Web-based electric bike rental app with full-stack deployment. | Next.js, NestJS, Nginx |
+| **AyoTani** | Agricultural platform connecting farmers and suppliers. | Next.js, PostgreSQL |
+| **MojadiApp** | Cross-platform mobile app for education management. | Flutter, Firebase |
+| **KarirTerbuka** | Career platform for Brida School Academy. | React.js, Next.js |
+| **Lombok Halal Room** | UI/UX project for halal tourism app. | Figma, React |
+
+---
+
+## 📊 GitHub Analytics
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RusdyZain&show_icons=true&include_all_commits=true&theme=radical" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=RusdyZain&show_icons=true&theme=radical&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RusdyZain&layout=compact&theme=radical&hide_border=true" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RusdyZain&theme=radical" alt="GitHub Streak Stats">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RusdyZain&layout=compact&theme=radical&langs_count=12" alt="Top Languages">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RusdyZain&theme=radical&hide_border=true" />
 </p>
 
 ---
 
-## 🎯 Let's Connect!
-💬 Open to collaboration, freelance projects, and exciting opportunities!  
-🚀 **Let’s build something great together!** 🚀  
+## 🌐 Connect with Me
+
+💬 Open to **collaborations**, **freelance projects**, and **tech opportunities**.  
+Let’s create something impactful together! ✨  
+📧 **rifkirusdisatmaputra@gmail.com**
+
+---
+
+⭐ *“Building technology with empathy, purpose, and clean architecture.”*
