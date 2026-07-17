@@ -1,0 +1,311 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Times New Roman;}}
+\paperw11907\paperh16840\margl2268\margr1701\margt2268\margb1701
+\f0\fs24\sl360\slmult1
+\qc\b BAB III\par
+METODOLOGI PENELITIAN\b0\par
+\qj\par
+\b 3.1 Metode Penelitian\b0\par
+Penelitian ini merupakan penelitian terapan pada bidang rekayasa perangkat lunak yang bertujuan menghasilkan Sistem Informasi Antar Jemput Laundry berbasis website bernama WashU. Penelitian difokuskan pada karakteristik proses layanan laundry di wilayah Kota Mataram. Penelitian terapan dipilih karena hasil penelitian tidak hanya berupa analisis konseptual, tetapi diwujudkan dalam bentuk sistem yang membantu Customer melakukan pencarian layanan dan pemesanan antar jemput, membantu Partner laundry mengelola layanan dan pesanan, serta membantu Admin melakukan monitoring platform secara terpusat.\par
+\par
+Pengembangan perangkat lunak dilakukan menggunakan kerangka kerja Scrum. Scrum digunakan karena mendukung pengembangan secara iteratif dan inkremental melalui sprint yang memiliki batas waktu. Kebutuhan sistem dapat diprioritaskan, diimplementasikan secara bertahap, dievaluasi, dan disempurnakan berdasarkan umpan balik. Setiap sprint menghasilkan increment yang dapat diperiksa dan menjadi dasar untuk menentukan pekerjaan berikutnya [10].\par
+\par
+Tahapan penelitian meliputi identifikasi masalah, pengumpulan data, analisis kebutuhan, penyusunan Product Backlog, Sprint Planning, perancangan sistem, implementasi, pengujian, Sprint Review, dan Sprint Retrospective. Tahapan tersebut disusun agar hubungan antara masalah, kebutuhan pengguna, rancangan, implementasi, dan hasil pengujian dapat ditelusuri secara sistematis [8].\par
+\par
+\b 3.1.1 Lokasi dan Objek Penelitian\b0\par
+Penelitian dilaksanakan dengan studi kasus pada layanan laundry di wilayah Kota Mataram. Kota Mataram menjadi wilayah operasional awal WashU dan digunakan sebagai batas pemetaan merchant, alamat penjemputan, pencarian layanan, dan skenario antar jemput. Batas wilayah tersebut diperlukan agar penelitian tetap fokus dan hasil sistem dapat diuji pada konteks operasional yang jelas.\par
+\par
+Objek penelitian adalah proses bisnis layanan laundry yang meliputi pencarian informasi layanan, komunikasi pelanggan dengan penyedia jasa, pencatatan pesanan, penjadwalan penjemputan, penerimaan cucian, pembaruan status, pencatatan transaksi, pengantaran kembali, dan penyampaian notifikasi. WashU dirancang sebagai platform multi-mitra dan tidak dibatasi pada satu nama usaha laundry tertentu.\par
+\par
+\b 3.1.2 Pendekatan Pengembangan Sistem\b0\par
+Pendekatan pengembangan menggunakan Scrum dengan pembagian tanggung jawab Product Owner, Scrum Master, dan Developer. Product Owner merepresentasikan kebutuhan bisnis dan pengguna, menetapkan prioritas Product Backlog, dan memvalidasi hasil increment. Scrum Master memastikan event Scrum berjalan serta membantu mengatasi hambatan. Developer melaksanakan analisis teknis, perancangan, pemrograman, integrasi, dokumentasi, dan pengujian. Dalam konteks tugas akhir, satu individu dapat menjalankan lebih dari satu fungsi, tetapi tanggung jawab setiap fungsi tetap dibedakan secara konseptual.\par
+\par
+\b Tabel 3.1 Peran Scrum pada Pengembangan WashU\b0\par
+Product Owner\tab Menentukan tujuan produk, kebutuhan Customer, Partner, dan Admin, serta prioritas Product Backlog.\par
+Scrum Master\tab Memfasilitasi Sprint Planning, Daily Scrum, Sprint Review, dan Sprint Retrospective.\par
+Developer\tab Menganalisis, merancang, mengimplementasikan, mengintegrasikan, dan menguji sistem.\par
+\par
+\b 3.2 Kerangka Penelitian\b0\par
+Kerangka penelitian menggambarkan urutan kegiatan untuk menghasilkan Sistem Informasi Antar Jemput Laundry berbasis website. Kerangka dimulai dari identifikasi kondisi layanan laundry di Kota Mataram, pengumpulan data dan studi literatur, analisis sistem, penyusunan backlog, pelaksanaan sprint, pengujian, evaluasi, dan penyusunan laporan. Walaupun proses pengembangan bersifat iteratif, kerangka penelitian tetap menunjukkan hubungan logis antartahap.\par
+\par
+\qc\b Gambar 3.1 Kerangka Penelitian\b0\par
+\qj Identifikasi Masalah Layanan Laundry di Kota Mataram\par
+\qc Panah ke bawah\par
+\qj Observasi, Wawancara, Studi Literatur, dan Analisis Dokumentasi\par
+\qc Panah ke bawah\par
+\qj Analisis Sistem Berjalan dan Kebutuhan Sistem\par
+\qc Panah ke bawah\par
+\qj Penyusunan Product Backlog dan Prioritas\par
+\qc Panah ke bawah\par
+\qj Sprint Planning dan Perancangan Sistem\par
+\qc Panah ke bawah\par
+\qj Implementasi Increment pada Setiap Sprint\par
+\qc Panah ke bawah\par
+\qj Black Box Testing, Sprint Review, dan Sprint Retrospective\par
+\qc Panah ke bawah\par
+\qj Kesimpulan dan Penyusunan Laporan Tugas Akhir\par
+\par
+\b 3.2.1 Identifikasi Masalah\b0\par
+Identifikasi masalah dilakukan untuk memahami kesenjangan antara proses layanan laundry yang berjalan dengan layanan digital yang diharapkan. Permasalahan yang menjadi perhatian adalah informasi layanan yang tersebar, pemesanan yang bergantung pada komunikasi manual, pencatatan pesanan yang tidak terpusat, ketidakjelasan status cucian, dan belum tersedianya mekanisme antar jemput yang terdokumentasi dalam satu sistem.\par
+\par
+Dari sisi Customer, proses manual mengharuskan pelanggan menghubungi penyedia jasa satu per satu untuk menanyakan harga, jenis layanan, estimasi selesai, dan ketersediaan antar jemput. Dari sisi Partner, pesanan yang masuk melalui berbagai kanal meningkatkan risiko keterlambatan respons, duplikasi data, kesalahan pencatatan, dan kesulitan membuat rekap transaksi. Kondisi tersebut menjadi dasar munculnya ide pengembangan WashU.\par
+\par
+\b 3.2.2 Analisis dan Perancangan\b0\par
+Tahap analisis menghasilkan kebutuhan fungsional dan nonfungsional yang ditransformasikan menjadi user story dan Product Backlog. Setelah prioritas ditentukan, dilakukan perancangan proses bisnis, UML, arsitektur, basis data, keamanan, dan antarmuka. Hasil perancangan menjadi acuan implementasi pada setiap sprint.\par
+\par
+\b 3.2.3 Implementasi dan Pengujian\b0\par
+Implementasi dilakukan secara bertahap pada setiap sprint. Item dinyatakan selesai apabila memenuhi acceptance criteria dan Definition of Done. Pengujian utama menggunakan Black Box Testing untuk memeriksa kesesuaian input, proses, dan output tanpa memeriksa struktur internal kode. Temuan pengujian dimasukkan kembali ke backlog sebagai defect atau pekerjaan perbaikan.\par
+\par
+\b 3.3 Studi Pendahuluan dan Pengumpulan Data\b0\par
+Studi pendahuluan bertujuan memperoleh pemahaman terhadap proses layanan laundry, kebutuhan calon pengguna, dan teknologi yang sesuai. Teknik pengumpulan data terdiri atas observasi, wawancara, studi literatur, dan analisis dokumen teknis proyek. Data lapangan digunakan untuk memahami masalah dan alur kerja, sedangkan literatur serta dokumentasi sistem digunakan untuk memastikan metode dan rancangan teknis konsisten.\par
+\par
+\b Tabel 3.2 Teknik Pengumpulan Data\b0\par
+Observasi\tab Sumber: proses layanan laundry di Kota Mataram. Luaran: gambaran sistem berjalan.\par
+Wawancara\tab Sumber: calon Customer dan pengelola laundry. Luaran: kebutuhan pengguna dan user story.\par
+Studi Literatur\tab Sumber: buku, jurnal, Scrum Guide, keamanan, dan usability. Luaran: landasan metode.\par
+Analisis Dokumen\tab Sumber: README, struktur proyek, skema Prisma, frontend, dan backend. Luaran: kesesuaian BAB III dengan implementasi.\par
+\par
+\b 3.3.1 Observasi\b0\par
+Observasi dilakukan terhadap alur pelayanan laundry yang lazim diterapkan di Kota Mataram, baik ketika pelanggan datang langsung maupun ketika berkomunikasi melalui aplikasi pesan instan. Fokus observasi meliputi cara pelanggan memperoleh informasi, cara pesanan dicatat, proses serah terima cucian, pembaruan status, pencatatan pembayaran, dan pengembalian cucian. Tanggal, lokasi, dan dokumentasi observasi dicantumkan pada lampiran berdasarkan bukti aktual penelitian.\par
+\par
+\b 3.3.2 Wawancara\b0\par
+Wawancara dilakukan secara semi-terstruktur. Pertanyaan kepada Customer diarahkan pada kesulitan mencari layanan, kebutuhan antar jemput, informasi harga, estimasi selesai, notifikasi, dan riwayat transaksi. Pertanyaan kepada Partner diarahkan pada pengelolaan layanan, pesanan, status pengerjaan, transaksi, promosi, dan laporan. Jumlah informan dan tanggal wawancara harus disesuaikan dengan data aktual dan tidak dibuat berdasarkan estimasi.\par
+\par
+\b 3.3.3 Studi Literatur\b0\par
+Studi literatur dilakukan terhadap referensi mengenai transformasi digital, sistem informasi, platform digital, rekayasa perangkat lunak, Scrum, usability, autentikasi, kontrol akses, keamanan aplikasi web, dan metodologi penelitian. Scrum Guide menjadi rujukan untuk peran, event, artifact, commitment, dan increment [10]. Referensi rekayasa perangkat lunak digunakan untuk menyusun analisis, perancangan, implementasi, dan pengujian secara sistematis [8].\par
+\par
+\b 3.3.4 Analisis Dokumentasi Sistem\b0\par
+Dokumentasi yang dianalisis meliputi README proyek, struktur folder frontend dan backend, konfigurasi Prisma, model basis data, endpoint, role pengguna, serta modul yang tersedia. Analisis dokumentasi diperlukan agar BAB III menggambarkan sistem WashU yang benar-benar dikembangkan dan bukan hanya uraian metodologi yang bersifat umum.\par
+\par
+\b 3.4 Analisis Sistem\b0\par
+\b 3.4.1 Analisis Sistem Berjalan\b0\par
+Pada sistem berjalan, pelanggan memperoleh informasi laundry melalui rekomendasi, media sosial, lokasi usaha, atau komunikasi langsung. Pelanggan menanyakan layanan dan harga, menyampaikan alamat, menentukan waktu penjemputan, lalu menunggu konfirmasi. Pesanan dapat dicatat pada buku, nota, spreadsheet sederhana, atau percakapan pesan instan.\par
+\par
+Setelah cucian diterima, pelanggan memperoleh informasi perkembangan ketika menghubungi pihak laundry. Riwayat status sulit ditelusuri secara konsisten. Setelah pesanan selesai, laundry menghubungi pelanggan untuk pengambilan atau pengantaran kembali. Rekap transaksi bergantung pada pencatatan internal masing-masing laundry.\par
+\par
+\b Tabel 3.3 Analisis Sistem Berjalan\b0\par
+Customer\tab Mencari laundry, menanyakan harga, memesan melalui chat, memberi alamat, dan menanyakan status. Kendala: informasi tersebar dan riwayat tidak terpusat.\par
+Partner Laundry\tab Menerima chat, mencatat pesanan, mengatur penjemputan, memproses cucian, dan memberi kabar. Kendala: risiko kehilangan data dan status tidak konsisten.\par
+Admin Platform\tab Belum tersedia pada proses konvensional. Kendala: tidak ada monitoring multi-mitra secara terpusat.\par
+\par
+\b 3.4.2 Analisis Sistem Usulan\b0\par
+Sistem usulan adalah Website WashU yang mempertemukan Customer dan Partner laundry dalam satu platform, dengan Admin sebagai pengelola. Customer dapat membuat akun, mengelola alamat, mencari merchant laundry di Kota Mataram, melihat layanan, membuat pesanan antar jemput, memakai voucher apabila memenuhi syarat, menerima notifikasi, dan memantau status serta riwayat.\par
+\par
+Partner dapat mengelola profil merchant, foto, lokasi, area layanan, jenis layanan, harga, estimasi pengerjaan, dan pesanan masuk. Partner menerima atau menolak pesanan, memperbarui status pickup, proses laundry, siap diantar, delivery, dan selesai, serta melihat transaksi dan payout. Admin mengelola pengguna, verifikasi merchant, order, voucher, payout, notifikasi, dan dashboard.\par
+\par
+Struktur Driver tersedia sebagai fondasi pengembangan, tetapi penelitian ini tidak mengimplementasikan aplikasi driver secara penuh. Fungsi antar jemput direpresentasikan oleh alamat, jadwal, jenis pickup atau delivery, catatan, dan status. Pencocokan driver otomatis, optimasi rute, dan pelacakan GPS real-time berada di luar ruang lingkup penelitian.\par
+\par
+\b Tabel 3.4 Perbandingan Sistem Berjalan dan Usulan\b0\par
+Informasi layanan\tab Berjalan: tersebar. Usulan: katalog merchant dan layanan dalam satu website.\par
+Pemesanan\tab Berjalan: chat atau telepon. Usulan: formulir order dengan alamat dan jadwal.\par
+Pencatatan\tab Berjalan: buku atau percakapan. Usulan: PostgreSQL terpusat.\par
+Status\tab Berjalan: ditanyakan manual. Usulan: status dan histori tersimpan serta dinotifikasikan.\par
+Pelaporan\tab Berjalan: rekap manual. Usulan: dashboard dan grafik.\par
+Keamanan\tab Berjalan: tidak ada hak akses platform. Usulan: JWT dan Role-Based Access Control.\par
+\par
+\b 3.4.3 Identifikasi Aktor Sistem\b0\par
+Customer adalah pelanggan yang melakukan pencarian merchant, memilih layanan, membuat order, mengatur alamat, menggunakan voucher, menerima notifikasi, dan melihat riwayat. Partner adalah mitra laundry yang mengelola merchant, layanan, pesanan, status, transaksi, dan payout. Admin adalah pengelola yang memonitor dan mengelola seluruh data platform. Driver hanya tersedia sebagai struktur data dasar untuk pengembangan berikutnya.\par
+\par
+\b 3.4.4 Kebutuhan Fungsional\b0\par
+KF-01 Sistem menyediakan registrasi, login, dan logout.\par
+KF-02 Sistem membatasi halaman dan endpoint berdasarkan role.\par
+KF-03 Customer dapat mengelola profil dan alamat.\par
+KF-04 Customer dapat mencari merchant di Kota Mataram.\par
+KF-05 Customer dapat melihat layanan, harga, dan estimasi.\par
+KF-06 Customer dapat membuat order dan permintaan antar jemput.\par
+KF-07 Customer dapat menggunakan voucher yang valid.\par
+KF-08 Customer dapat memantau status dan riwayat order.\par
+KF-09 Customer menerima notifikasi perubahan status.\par
+KF-10 Partner dapat mengelola profil merchant dan media.\par
+KF-11 Partner dapat mengelola layanan, harga, dan estimasi.\par
+KF-12 Partner dapat menerima atau menolak pesanan.\par
+KF-13 Partner dapat memperbarui status pickup, proses, dan delivery.\par
+KF-14 Partner dapat melihat transaksi dan payout.\par
+KF-15 Admin dapat mengelola pengguna dan role.\par
+KF-16 Admin dapat memverifikasi dan mengelola merchant.\par
+KF-17 Admin dapat memonitor dan mengelola order.\par
+KF-18 Admin dapat mengelola voucher.\par
+KF-19 Admin dapat mengelola payout.\par
+KF-20 Admin dapat melihat dashboard statistik.\par
+KF-21 Sistem menyimpan media menggunakan Cloudinary.\par
+KF-22 Sistem mendukung pembaruan real-time dengan Socket.IO.\par
+KF-23 Sistem menampilkan peta atau lokasi dengan Leaflet.\par
+\par
+\b 3.4.5 Kebutuhan Nonfungsional\b0\par
+Usability: antarmuka responsif, konsisten, dan mudah dipahami [13].\par
+Security: password di-hash, autentikasi menggunakan token, endpoint dibatasi berdasarkan role, dan input divalidasi [15][17].\par
+Performance: daftar data menggunakan filter atau pagination dan media dioptimalkan.\par
+Reliability: data order, voucher, transaksi, dan payout dijaga konsistensinya.\par
+Maintainability: frontend dan backend disusun secara modular.\par
+Compatibility: website dapat digunakan pada browser modern di desktop dan mobile.\par
+Scalability: struktur sistem dapat dikembangkan untuk wilayah, driver, dan integrasi pembayaran.\par
+Privacy: data pribadi, alamat, dan transaksi hanya tersedia bagi pihak yang berwenang.\par
+\par
+\b 3.4.6 Product Backlog\b0\par
+Product Backlog disusun berdasarkan kebutuhan Customer, Partner, Admin, integrasi, dan pengujian. Prioritas menggunakan Must, Should, dan Could. Story point merupakan estimasi relatif kompleksitas.\par
+\par
+PB-01 Fondasi proyek dan konfigurasi environment. Prioritas Must. Story Point 5.\par
+PB-02 Autentikasi JWT dan Role-Based Access Control. Must. 8.\par
+PB-03 Profil pengguna dan alamat Customer. Must. 5.\par
+PB-04 Pendaftaran, verifikasi, dan profil merchant. Must. 8.\par
+PB-05 CRUD layanan laundry, harga, dan estimasi. Must. 8.\par
+PB-06 Pencarian, filter, detail merchant, dan lokasi. Must. 5.\par
+PB-07 Pembuatan order dan detail antar jemput. Must. 13.\par
+PB-08 Penerimaan atau penolakan order oleh Partner. Must. 8.\par
+PB-09 Workflow dan histori status order. Must. 8.\par
+PB-10 Notifikasi dan Socket.IO. Should. 8.\par
+PB-11 Voucher dan validasi penggunaan. Should. 5.\par
+PB-12 Transaksi dan payout Partner. Should. 8.\par
+PB-13 Dashboard dan riwayat Customer. Must. 5.\par
+PB-14 Dashboard operasional Partner. Must. 5.\par
+PB-15 Manajemen user dan merchant oleh Admin. Must. 8.\par
+PB-16 Manajemen order, voucher, dan payout oleh Admin. Must. 8.\par
+PB-17 Upload gambar Cloudinary. Should. 5.\par
+PB-18 Dashboard grafik Recharts. Should. 5.\par
+PB-19 Struktur dasar Driver. Could. 3.\par
+PB-20 Black Box Testing, hardening, dan perbaikan. Must. 8.\par
+\par
+\b 3.5 Perancangan Sistem\b0\par
+\b 3.5.1 Sprint Planning dan Sprint Backlog\b0\par
+Sprint Planning dilakukan pada awal sprint untuk menentukan Sprint Goal, memilih Product Backlog Item, memecahnya menjadi pekerjaan teknis, dan menyepakati cara verifikasi. Rancangan menggunakan timebox dua minggu dan harus disesuaikan dengan kalender penelitian aktual.\par
+\par
+Sprint 1: fondasi, autentikasi, role, profil, alamat, dan upload dasar.\par
+Sprint 2: merchant, layanan laundry, pencarian, filter, dan lokasi.\par
+Sprint 3: pembuatan order antar jemput dan respons Partner.\par
+Sprint 4: histori status, notifikasi, dashboard Customer, dan dashboard Partner.\par
+Sprint 5: voucher, transaksi, payout, manajemen Admin, dan grafik.\par
+Sprint 6: struktur Driver dasar, pengujian, hardening, dan perbaikan.\par
+\par
+\b 3.5.2 Acceptance Criteria dan Definition of Done\b0\par
+Setiap user story memiliki acceptance criteria. Sebagai contoh, pembuatan order diterima apabila Customer yang telah login dapat memilih merchant dan layanan, memilih alamat dan jadwal, melihat ringkasan biaya, mengirim order, serta menerima nomor order. Input tidak valid harus ditolak dengan pesan yang dapat dipahami.\par
+\par
+Definition of Done mencakup fungsi memenuhi acceptance criteria, tidak terdapat error kritis pada alur utama, endpoint terlindungi sesuai role, validasi tersedia, data tersimpan konsisten, integrasi frontend dan backend berfungsi, tampilan responsif, pengujian lulus, dan dokumentasi diperbarui.\par
+\par
+\b 3.5.3 Perancangan Use Case Diagram\b0\par
+Use Case Diagram menggambarkan hubungan Customer, Partner, Admin, dan Driver terbatas dengan fungsi utama. Customer berinteraksi dengan autentikasi, profil, alamat, pencarian merchant, order, voucher, status, notifikasi, dan riwayat. Partner berinteraksi dengan merchant, layanan, pesanan, status, transaksi, dan payout. Admin berinteraksi dengan user, merchant, order, voucher, payout, notifikasi, dan dashboard.\par
+\par
+\qc\b Gambar 3.2 Use Case Diagram Sistem WashU\b0\par
+\qj Diagram dibuat berdasarkan uraian aktor dan fungsi pada bagian ini.\par
+\par
+\b 3.5.4 Perancangan Activity Diagram\b0\par
+Activity Diagram dirancang untuk registrasi dan login, pembuatan order, penerimaan order, pembaruan status, penggunaan voucher, pengelolaan merchant, serta pengelolaan order oleh Admin. Diagram pembuatan order dimulai ketika Customer memilih merchant dan layanan, memilih alamat serta jadwal, sistem melakukan validasi dan perhitungan, menyimpan order, lalu mengirim notifikasi kepada Partner.\par
+\par
+\b 3.5.5 Perancangan Sequence Diagram\b0\par
+Sequence Diagram menunjukkan urutan pesan antara pengguna, antarmuka Next.js, lapisan Backend for Frontend, backend NestJS, Prisma, PostgreSQL, Cloudinary, dan Socket.IO. Pada proses order, frontend mengirim data dan token ke BFF, BFF meneruskan permintaan ke API, backend memvalidasi data, Prisma menyimpan transaksi, backend mengembalikan respons, dan notifikasi dikirim kepada pihak terkait.\par
+\par
+\qc\b Gambar 3.3 Sequence Diagram Pembuatan Order\b0\par
+\qj Diagram lain dapat dibuat untuk login, pembaruan status, voucher, upload media, dan payout.\par
+\par
+\b 3.5.6 Perancangan Class Diagram dan Basis Data\b0\par
+Entitas utama sistem meliputi User, Profile, Address, Partner atau Merchant, LaundryService, Order, OrderItem, PickupDelivery, OrderStatusHistory, Voucher, VoucherUsage, Transaction, Payout, Notification, Media, dan DriverProfile dasar. Nama akhir entitas harus disesuaikan dengan model aktual pada schema.prisma.\par
+\par
+User menyimpan akun, kredensial, role, dan status. Merchant menyimpan profil usaha, lokasi, verifikasi, area layanan, dan media. LaundryService menyimpan nama layanan, harga, satuan, estimasi, dan status. Order menyimpan nomor order, Customer, Partner, alamat, jadwal, total, dan status. OrderItem menyimpan layanan, jumlah atau berat estimasi, harga, dan subtotal. PickupDelivery menyimpan alamat, jadwal, tipe, catatan, dan status. OrderStatusHistory menyimpan status, waktu, pelaku, dan catatan. Voucher menyimpan kode, diskon, periode, kuota, dan syarat. Transaction dan Payout menyimpan pencatatan keuangan platform. Notification menyimpan pesan dan status baca. Media menyimpan URL dan public identifier Cloudinary. DriverProfile disiapkan sebagai struktur dasar.\par
+\par
+PostgreSQL digunakan sebagai basis data relasional dan Prisma digunakan sebagai ORM. Foreign key, unique constraint, enum status, dan transaksi basis data digunakan untuk menjaga konsistensi. Data yang memiliki riwayat transaksi sebaiknya dinonaktifkan atau menggunakan soft delete daripada dihapus permanen.\par
+\par
+\qc\b Gambar 3.4 Entity Relationship Diagram WashU\b0\par
+\qj ERD digambar berdasarkan schema.prisma yang digunakan pada implementasi akhir.\par
+\par
+\b 3.5.7 Perancangan Arsitektur Sistem\b0\par
+WashU menggunakan arsitektur web berlapis. Lapisan presentasi dibangun dengan Next.js App Router, React, dan TypeScript. Frontend menggunakan pola Backend for Frontend untuk mengelola komunikasi UI dengan backend. Logika bisnis utama berada pada REST API NestJS. Prisma menjadi lapisan akses data ke PostgreSQL. Cloudinary digunakan untuk media, Socket.IO untuk pembaruan real-time, Leaflet untuk peta, dan Recharts untuk visualisasi dashboard.\par
+\par
+\qc\b Gambar 3.5 Arsitektur Sistem WashU\b0\par
+\qj Browser Customer, Partner, dan Admin\par
+Next.js App Router dan TypeScript\par
+Backend for Frontend\par
+NestJS REST API, JWT, RBAC, dan Socket.IO\par
+Prisma ORM\par
+PostgreSQL\par
+Layanan pendukung: Cloudinary, Leaflet, dan Recharts.\par
+\par
+\b 3.5.8 Perancangan Keamanan Sistem\b0\par
+Autentikasi menggunakan JWT. Setelah kredensial valid, backend menghasilkan token untuk permintaan berikutnya. Authorization menggunakan Role-Based Access Control agar setiap role hanya mengakses resource sesuai kewenangan [15]. Password disimpan dalam bentuk hash, input divalidasi, endpoint privat memeriksa token dan role, secret ditempatkan pada environment variable, upload dibatasi, dan pesan kesalahan tidak mengungkapkan informasi sensitif. Pengamanan tersebut diarahkan untuk mengurangi risiko broken access control, authentication failure, injection, dan security misconfiguration [17].\par
+\par
+\b 3.5.9 Perancangan Antarmuka\b0\par
+Antarmuka Customer terdiri atas beranda, pencarian merchant, detail merchant, order, alamat, voucher, status, notifikasi, profil, dan riwayat. Antarmuka Partner terdiri atas dashboard, profil merchant, layanan, pesanan masuk, detail order, pembaruan status, transaksi atau payout, dan notifikasi. Antarmuka Admin terdiri atas dashboard, user, partner, order, voucher, payout, notifikasi, laporan, dan pengaturan. Navigasi dibedakan berdasarkan role agar pengguna tidak melihat menu yang tidak relevan.\par
+\par
+Usability dinilai melalui konsistensi istilah, hierarki informasi, feedback setelah aksi, pesan validasi, keterbacaan, dan responsivitas. Sistem dirancang agar pengguna dapat mencapai tujuan secara efektif, efisien, dan memuaskan dalam konteks penggunaan [13].\par
+\par
+\b 3.5.10 Perangkat Pengembangan\b0\par
+Frontend: Next.js App Router, React, dan TypeScript.\par
+Backend: NestJS.\par
+Database: PostgreSQL.\par
+ORM: Prisma.\par
+Authentication: JWT.\par
+Realtime: Socket.IO.\par
+Media: Cloudinary.\par
+Map: Leaflet.\par
+Chart: Recharts.\par
+Version Control: Git.\par
+\par
+\b 3.6 Penerapan Scrum\b0\par
+\b 3.6.1 Product Backlog Refinement\b0\par
+Product Backlog diperbarui berdasarkan temuan analisis, dependensi, dan hasil evaluasi increment. Refinement memperjelas user story, acceptance criteria, prioritas, estimasi, dan pemecahan item besar menjadi item yang dapat diselesaikan dalam satu sprint.\par
+\par
+\b 3.6.2 Sprint Planning\b0\par
+Sprint Planning menetapkan Sprint Goal, backlog yang dipilih, dan cara menyelesaikannya. Pekerjaan teknis dapat meliputi model Prisma, migration, DTO, validation, service, controller, endpoint, integrasi BFF, halaman frontend, state handling, dan pengujian.\par
+\par
+\b 3.6.3 Daily Scrum\b0\par
+Daily Scrum dilakukan secara singkat untuk memeriksa kemajuan menuju Sprint Goal. Pembahasan meliputi pekerjaan selesai, pekerjaan berikutnya, dan hambatan. Pada pengembangan individu, kegiatan dapat didokumentasikan melalui task board, catatan harian, atau commit.\par
+\par
+\b 3.6.4 Sprint Review\b0\par
+Sprint Review dilakukan setelah increment tersedia. Fitur didemonstrasikan berdasarkan alur pengguna dan acceptance criteria. Masukan dari calon pengguna, mitra, pembimbing, atau pemangku kepentingan digunakan untuk memperbarui backlog. Item yang belum memenuhi kriteria tidak dinyatakan selesai.\par
+\par
+\b 3.6.5 Sprint Retrospective\b0\par
+Sprint Retrospective mengevaluasi proses kerja, kualitas, alat, dependensi, dan hambatan. Hasilnya berupa tindakan perbaikan, misalnya memperkecil user story, menambah validasi, memperbaiki dokumentasi API, meningkatkan konsistensi penamaan, atau menambah pengujian.\par
+\par
+\b 3.6.6 Increment\b0\par
+Increment adalah hasil terintegrasi dari backlog yang memenuhi Definition of Done. Increment mencakup halaman, model data, endpoint, validasi, authorization, integrasi, dan pengujian. Increment setiap sprint digabungkan dengan increment sebelumnya.\par
+\par
+\b 3.7 Pengujian Sistem\b0\par
+\b 3.7.1 Metode Black Box Testing\b0\par
+Pengujian menggunakan Black Box Testing karena penelitian berfokus pada kesesuaian fungsi dengan kebutuhan pengguna. Penguji memberikan input, menjalankan aksi, dan memeriksa output tanpa menjadikan struktur internal program sebagai dasar penilaian. Pengujian mencakup alur positif, input tidak valid, pembatasan hak akses, dan respons ketika data tidak ditemukan.\par
+\par
+\b Tabel 3.15 Rencana Black Box Testing\b0\par
+1 Registrasi dengan data valid: akun tersimpan.\par
+2 Registrasi dengan email yang telah digunakan: sistem menolak.\par
+3 Login valid: token atau session terbentuk dan pengguna diarahkan sesuai role.\par
+4 Login dengan password salah: sistem menolak tanpa membocorkan detail.\par
+5 Customer mengakses endpoint Admin: akses ditolak.\par
+6 Token tidak ada atau kedaluwarsa: akses privat ditolak.\par
+7 Ubah profil Customer: data diperbarui.\par
+8 Tambah alamat lengkap: alamat tersimpan dan dapat dipilih.\par
+9 Alamat dengan field wajib kosong: validasi ditampilkan.\par
+10 Pencarian merchant dengan kata kunci: hasil sesuai ditampilkan.\par
+11 Membuka detail merchant aktif: profil, lokasi, media, dan layanan tampil.\par
+12 Membuat order valid: nomor order dan status awal terbentuk.\par
+13 Membuat order dengan layanan tidak aktif: sistem menolak.\par
+14 Voucher valid: diskon diterapkan.\par
+15 Voucher kedaluwarsa atau kuota habis: diskon ditolak.\par
+16 Customer membuka riwayat: hanya order miliknya tampil.\par
+17 Partner membuka pesanan: hanya order merchant terkait tampil.\par
+18 Partner menerima order: status berubah dan Customer diberi notifikasi.\par
+19 Partner menolak order dengan alasan: status dan alasan tersimpan.\par
+20 Transisi status valid: status dan histori tersimpan.\par
+21 Transisi status tidak valid: sistem menolak.\par
+22 Status berubah: notifikasi tersimpan atau dikirim real-time.\par
+23 Partner menambah layanan valid: layanan tersimpan.\par
+24 Upload gambar valid: media tersimpan di Cloudinary dan URL dicatat.\par
+25 Upload bukan gambar atau terlalu besar: sistem menolak.\par
+26 Admin mengubah status user: data diperbarui sesuai hak akses.\par
+27 Admin memverifikasi merchant: status verifikasi berubah.\par
+28 Admin memfilter order: data sesuai filter ditampilkan.\par
+29 Admin memproses payout valid: status dan waktu payout diperbarui.\par
+30 Dashboard dibuka: ringkasan dan grafik ditampilkan.\par
+31 Partner membuka order merchant lain: akses ditolak.\par
+32 Input tidak wajar: input divalidasi dan tidak menjalankan instruksi berbahaya.\par
+33 Dua proses menerima order yang sama: sistem mempertahankan keadaan konsisten.\par
+34 Relasi Driver dasar dibuat: data tersimpan tanpa fitur driver penuh.\par
+35 Logout: session lokal dibersihkan dan akses privat berakhir.\par
+\par
+\b 3.7.2 Kriteria Keberhasilan Pengujian\b0\par
+Sistem dinyatakan memenuhi pengujian fungsional apabila seluruh fungsi prioritas Must berjalan sesuai acceptance criteria, pembatasan hak akses bekerja, data tersimpan konsisten, dan tidak terdapat defect kritis pada autentikasi, pembuatan order, pemrosesan Partner, pembaruan status, serta monitoring Admin. Defect minor dapat dicatat sebagai saran pengembangan selama tidak menghambat tujuan utama penelitian.\par
+\par
+\b 3.7.3 Dokumentasi Hasil Pengujian\b0\par
+Hasil aktual pengujian disajikan pada BAB IV dengan kolom nomor, skenario, hasil yang diharapkan, hasil aktual, dan status. Screenshot antarmuka, respons sistem, atau log dapat digunakan sebagai bukti. BAB III menjelaskan metode dan rencana pengujian, sedangkan BAB IV memuat hasil implementasi dan hasil uji.\par
+\par
+\b 3.8 Ringkasan Metodologi\b0\par
+Penelitian menggunakan pendekatan rekayasa perangkat lunak terapan dengan studi kasus wilayah Kota Mataram dan Scrum sebagai metode pengembangan. Data diperoleh melalui observasi, wawancara, studi literatur, dan analisis dokumentasi proyek. Kebutuhan disusun sebagai Product Backlog, dikerjakan melalui sprint, dirancang menggunakan UML, arsitektur berlapis, dan basis data relasional, lalu diuji dengan Black Box Testing.\par
+\par
+Metodologi ini memastikan implementasi WashU terhubung dengan permasalahan layanan laundry, kebutuhan Customer, Partner, dan Admin, serta batasan Driver yang belum dikembangkan penuh. BAB III menjadi dasar untuk implementasi dan pembahasan hasil pada BAB IV.\par
+}
