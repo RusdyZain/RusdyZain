@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7c3aed&height=190&section=header&text=Rifki%20Rusdi%20Satma%20Putra&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Software%20Developer%20%7C%20Founder%20of%20Nusadex&descAlignY=62" alt="Rifki Rusdi Satma Putra" />
+  <img src="./assets/hero.svg" alt="Rifki Rusdi Satma Putra — Software Developer and Founder of Nusadex" width="100%" />
 </p>
 
 <p align="center">
@@ -7,27 +7,34 @@
 </p>
 
 <p align="center">
-  <a href="mailto:rifkirusdisatmaputra@gmail.com"><img src="https://img.shields.io/badge/Email-c14438?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/rifkirusdi30/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://www.instagram.com/rusdy_zain/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="mailto:rifkirusdisatmaputra@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/rifkirusdi30/">LinkedIn</a> ·
+  <a href="https://www.instagram.com/rusdy_zain/">Instagram</a>
 </p>
 
-Tech stack
-React · Next.js · Node.js · Express · PostgreSQL · Flutter · Docker
-Projects
-AkuSehat · Munasabahku · AyoTani · Wash U Laundry · Sigap
-GitHub stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RusdyZain&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RusdyZain&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages" />
-</p>
+### Tech stack
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RusdyZain&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-</p>
+`React` · `Next.js` · `Node.js` · `Express` · `PostgreSQL` · `Flutter` · `Docker`
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RusdyZain&theme=tokyonight&no-frame=true&row=1&column=6" alt="GitHub profile trophies" />
-</p>
+### Projects
+
+**AkuSehat** · **Munasabahku** · **AyoTani** · **Wash U Laundry** · **Sigap**
+
+### GitHub activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg" />
+  <img src="./assets/overview.light.svg" alt="GitHub statistics" width="100%" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions.dark.svg" />
+  <img src="./assets/contributions.light.svg" alt="3D contribution calendar and streaks" width="100%" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/languages.dark.svg" />
+  <img src="./assets/languages.light.svg" alt="Programming languages" width="100%" />
+</picture>
 
 <p align="center"><em>“Duduk dulu, mikir dulu. Koding itu alat, bukan tujuan.”</em></p>
