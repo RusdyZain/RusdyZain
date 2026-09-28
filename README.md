@@ -12,16 +12,11 @@
   <a href="https://www.instagram.com/rusdy_zain/">Instagram</a>
 </p>
 
-### Tech stack
-
-`React` · `Next.js` · `Node.js` · `Express` · `PostgreSQL` · `Flutter` · `Docker`
-
-### Projects
-
-**AkuSehat** · **Munasabahku** · **AyoTani** · **Wash U Laundry** · **Sigap**
-
-### GitHub activity
-
+Tech stack
+React · Next.js · Node.js · Express · PostgreSQL · Flutter · Docker
+Projects
+AkuSehat · Munasabahku · AyoTani · Wash U Laundry · Sigap
+GitHub activity
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/overview.dark.svg" />
   <img src="./assets/overview.light.svg" alt="GitHub statistics" width="100%" />
