@@ -3,18 +3,14 @@
 </p>
 
 <p align="center">
-  I build web applications, business systems, and practical AI integrations.
-</p>
-
-<p align="center">
   <a href="mailto:rifkirusdisatmaputra@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/rifkirusdi30/">LinkedIn</a> ·
-  <a href="https://www.instagram.com/rusdy_zain/">Instagram</a>
+  <a href="https://github.com/RusdyZain">GitHub</a>
 </p>
 
 Tech stack
 React · Next.js · Node.js · Express · PostgreSQL · Flutter · Docker
-Projects
+Selected work
 AkuSehat · Munasabahku · AyoTani · Wash U Laundry · Sigap
 GitHub activity
 <picture>
@@ -31,5 +27,3 @@ GitHub activity
   <source media="(prefers-color-scheme: dark)" srcset="./assets/languages.dark.svg" />
   <img src="./assets/languages.light.svg" alt="Programming languages" width="100%" />
 </picture>
-
-<p align="center"><em>“Duduk dulu, mikir dulu. Koding itu alat, bukan tujuan.”</em></p>
